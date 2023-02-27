@@ -14,11 +14,6 @@
     "web-vitals": "^2.1.4"
   },
   "proxy": "http://10.72.199.121:8080",
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "eject": "react-scripts eject"
-  },
   "eslintConfig": {
     "extends": [
       "react-app",
