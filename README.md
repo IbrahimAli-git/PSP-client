@@ -1,40 +1,70 @@
-# Professional Software Projects
+# Getting Started with Create React App
 
-## Key Topics:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-1. Project Description  
-2. How to Install and Run the Project
-3. Collaborators
-4. References
+## Available Scripts
 
-## Project Descripton
+In the project directory, you can run:
 
-For the software projects module we have been tasked with designing and building an application for our clients. Our clients, MTa immersion, are a professional organisation that serves people who are interested in experiential education. Their target audience includes "faculty, staff, administrators, and students in higher education, as well as K-12 (year 1 - year 13) educators, youth development professionals, corporate trainers, and outdoor educators." 
+### `npm start`
 
-In terms of software this has been detailed in the client’s specification. It can be split into front-end and back-end development. For the front-end, the user interface, the project specification states that MaterialUI is to be used. MaterialUI is a React framework which allows a developer to build user interfaces. To allow the web app to accept multiple connections, we have used Socket.io which allows multiple users to connect from seperate computers. A mix of MongoDB, Nest.js and TypeScript will be used to create a connection between the database and the application.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## How to Install and Run the Project
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-1. Open a new codespace with the 'main' branch
-2. Use 'cd server' to navigate to the server directory
-3. In the terminal run 'npm install'
-4. Once install has finished run 'npm start'
-5. Then go to the client folder and the App.js file
-6. Change the http address to your current_ip_address:8080
-7. Do the same in the package.json for the proxy
-8. In the terminal navigate to the client directory
-9. Run 'npm install'
-10. Run 'npm start'
+### `npm test`
 
-## Collaborators
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Ishaq Kamal Chowdhury - c2091112@exchange.shu.ac.uk  
-Joey Ball - c0011779@exchange.shu.ac.uk  
-Blessing Egodibie - c1009210@exchange.shu.ac.uk  
-Ibrahim Ali - c0046944@hallam.shu.ac.uk  
+### `npm run build`
 
-## References
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Socket.io + ReactJS Tutorial: https://youtu.be/djMy4QsPWiI  
-Create React App: https://github.com/facebook/create-react-app/blob/main/packages/cra-template/template/README.md  
-MTa Website: https://www.experientiallearning.org/online/
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
