@@ -1,4 +1,4 @@
-import './App.css';
+import 'App.css';
 import $ from 'jquery'
 import io from "socket.io-client"
 const socket = io.connect("http://13.40.174.86:3000")
